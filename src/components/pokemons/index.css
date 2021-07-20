@@ -1,0 +1,36 @@
+.container{
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    z-index: 1;
+}
+.card{
+    margin: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #FFF;
+    border-radius: 6px;
+}
+.card img{
+    width: 100px;
+    padding: 20px;
+    margin: 0 auto;
+    display: block;
+}
+.card h3{
+    color: #000;
+    font-family: sans-serif;
+}
+.card p{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #000;
+    border-bottom: 1px solid #000;
+    display: block;
+    padding: 10px;
+    background-color: #f4f4f4f4;
+}

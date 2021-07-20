@@ -1,0 +1,12 @@
+nav{
+    background-color: #000;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 2;
+}
+h2{
+    color: #FFF;
+    position: relative;
+    top: 10px;
+}
